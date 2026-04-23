@@ -1,0 +1,12 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B3C5D"/>
+      <stop offset="1" stop-color="#1F9D8B"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" rx="36" fill="url(#bg)"/>
+  <circle cx="400" cy="360" r="160" fill="rgba(255,255,255,0.92)"/>
+  <rect x="190" y="560" width="420" height="250" rx="120" fill="rgba(255,255,255,0.92)"/>
+  <text x="400" y="915" text-anchor="middle" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">Add Profile Photo</text>
+</svg>
