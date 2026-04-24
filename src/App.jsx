@@ -163,9 +163,9 @@ export default function App() {
             <div className="profile-frame">
               <img
                 className="profile-image"
-                src="/images/profile.jpg"
+                src={`${import.meta.env.BASE_URL}images/profile.jpg`}
                 alt="Portrait of Nethmi Savindani"
-                onError={(event) => fallbackImage(event, '/images/profile-placeholder.svg')}
+                onError={(event) => fallbackImage(event, `${import.meta.env.BASE_URL}images/profile-placeholder.svg`)}
               />
             </div>
             <h2>Nethmi Savindani</h2>
@@ -345,14 +345,14 @@ export default function App() {
               <button
                 type="button"
                 className="project-shot-button"
-                onClick={() => openLightbox('/images/project-webapp.jpg', 'Screenshot of web application dashboard project')}
+                onClick={() => openLightbox(`${import.meta.env.BASE_URL}images/project-webapp.jpg`, 'Screenshot of web application dashboard project')}
                 aria-label="Open project screenshot for User Management System"
               >
                 <img
                   className="project-shot"
-                  src="/images/project-webapp.jpg"
+                  src={`${import.meta.env.BASE_URL}images/project-webapp.jpg`}
                   alt="Screenshot of user management system project"
-                  onError={(event) => fallbackImage(event, '/images/project-webapp-placeholder.svg')}
+                  onError={(event) => fallbackImage(event, `${import.meta.env.BASE_URL}images/project-webapp-placeholder.svg`)}
                 />
               </button>
               <h3>User Management System</h3>
@@ -379,14 +379,14 @@ export default function App() {
               <button
                 type="button"
                 className="project-shot-button"
-                onClick={() => openLightbox('/images/project-api.jpg', 'Screenshot of weather app project')}
+                onClick={() => openLightbox(`${import.meta.env.BASE_URL}images/project-api.jpg`, 'Screenshot of weather app project')}
                 aria-label="Open project screenshot for Weather App"
               >
                 <img
                   className="project-shot"
-                  src="/images/project-api.jpg"
+                  src={`${import.meta.env.BASE_URL}images/project-api.jpg`}
                   alt="Screenshot of weather app"
-                  onError={(event) => fallbackImage(event, '/images/project-api-placeholder.svg')}
+                  onError={(event) => fallbackImage(event, `${import.meta.env.BASE_URL}images/project-api-placeholder.svg`)}
                 />
               </button>
               <h3>Weather App</h3>
@@ -408,14 +408,14 @@ export default function App() {
               <button
                 type="button"
                 className="project-shot-button"
-                onClick={() => openLightbox('/images/project-team.jpg', 'Screenshot of cinema ticket booking web application')}
+                onClick={() => openLightbox(`${import.meta.env.BASE_URL}images/project-team.jpg`, 'Screenshot of cinema ticket booking web application')}
                 aria-label="Open project screenshot for Cinema Ticket Booking Web Application"
               >
                 <img
                   className="project-shot"
-                  src="/images/project-team.jpg"
+                  src={`${import.meta.env.BASE_URL}images/project-team.jpg`}
                   alt="Screenshot of cinema ticket booking web application"
-                  onError={(event) => fallbackImage(event, '/images/project-team-placeholder.svg')}
+                  onError={(event) => fallbackImage(event, `${import.meta.env.BASE_URL}images/project-team-placeholder.svg`)}
                 />
               </button>
               <h3>Cinema Ticket Booking Web Application</h3>
